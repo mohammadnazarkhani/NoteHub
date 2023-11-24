@@ -9,7 +9,7 @@
     <h2>Read Content</h2>
     <?php
     // Fetch and display content from the database
-    $conn = new mysqli("localhost", "root", "D2s5:B=1{Aw]", "notehub");
+    $conn = new mysqli("localhost", "root", "password", "notehub");
 
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
