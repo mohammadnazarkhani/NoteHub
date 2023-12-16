@@ -19,3 +19,13 @@ To get started with NoteHub, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/NoteHub.git
+  ```
+
+2. Open the NoteHub folder in a editor/IDE
+3. Write you own database password for $passwrod variables in process.php & read.php files
+4. Open projects directory in a terminal and leave below command:
+   ```bash
+   php -S localhost:3000
+   ```
+  
+5. Opne the localhost:3000 address in a web browser
